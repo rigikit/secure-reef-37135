@@ -4,8 +4,8 @@
       type="button"
       class="btn m-0 p-1 shadow-none"
     >
-      <!--<i class="fas fa-heart mr-1" 変更点 アイコンを猫に変える -->
-        <i class="fas fa-cat"
+      <!--<i class="fas fa-heart mr-1" 変更点 アイコンをに変える -->
+        <i class="far fa-lightbulb"
          :class="{'red-text':this.isLikedBy, 'animated heartBeat fast':this.gotToLike}"
          @click="clickLike"
       />

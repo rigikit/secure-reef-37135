@@ -1,23 +1,29 @@
-<nav class="navbar navbar-expand navbar-dark blue-gradient">
+<nav class="navbar navbar-expand navbar-dark blue-gradient ">
+  <a class="navbar-brand" href="/"><i class="fab fa-apple"><p class="text-warning">speed</p></i></a>
 
-  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>Memo</a>
-
+  speedに関連することを投稿してみましょう
+  
   <ul class="navbar-nav ml-auto">
+
     @guest
     <li class="nav-item">
-      <a class="nav-link" href="{{ route('register') }}">ユーザー登録</a>
+      <a class="nav-link" href="{{ route('register') }}"><p class="text-warning">ユーザー登録
+      </p>
+      </a>
     </li>
     @endguest
 
     @guest
     <li class="nav-item">
-      <a class="nav-link" href="{{route('login')}}">ログイン</a>
+      <a class="nav-link" href="{{ route('login') }}"><p class="text-warning">ログイン
+      </p>
+      </a>
     </li>
     @endguest
 
     @auth
     <li class="nav-item">
-      <a class="nav-link" href="{{ route('articles.create') }}"><i class="fas fa-pen mr-1"></i>投稿する</a> 
+      <a class="nav-link" href="{{ route('articles.create') }}"><i class="fas fa-pen mr-1"></i>投稿する</a>
     </li>
     @endauth
 
