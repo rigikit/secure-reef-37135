@@ -2,6 +2,8 @@
   <a class="navbar-brand" href="/"><i class="fab fa-apple"><p class="text-warning">speed</p></i></a>
 
   speedに関連することを投稿してみましょう
+  時短 記録の速さなど
+
   
   <ul class="navbar-nav ml-auto">
 
