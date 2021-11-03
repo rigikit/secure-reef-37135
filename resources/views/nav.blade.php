@@ -1,10 +1,9 @@
-<nav class="navbar navbar-expand navbar-dark blue-gradient ">
-  <a class="navbar-brand" href="/"><i class="fab fa-apple"><p class="text-warning">speed</p></i></a>
+<nav class="navbar navbar-expand navbar-dark blue ">
+  <a class="navbar-brand" href="/"><i class="fab fa-apple"><p class="text-warning">Let's travel for 10 seconds</p></i></a>
 
-  speedに関連することを投稿してみましょう
-  時短 記録の速さなど
 
-  
+
+
   <ul class="navbar-nav ml-auto">
 
     @guest
